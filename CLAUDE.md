@@ -45,3 +45,9 @@ New folder + `index.html`, copy the `<head>`/nav/footer block from an existing p
 ## A known tradeoff
 
 Nav and footer are duplicated by hand across pages rather than templated, to keep this a genuinely zero-build-step starting point. If that gets painful as the page count grows, the natural next step is a light static site generator (Eleventy, for instance) or a small script that stitches shared partials at commit time.
+
+## When to commit
+
+- Create commits after completing each logical unit of work.
+- Do not push to the remote repository unless asked.
+- Use conventional commit messages (e.g. "feat:", "fix:", "refactor:").
